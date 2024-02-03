@@ -62,9 +62,10 @@ The result is organized as follows:
 
 # Predictor
 
-This script is used to predict final Gibbs free energy values for an unknown group of one or more .pdb file instances, using the results of the previous scripts and the model for energy prediction.
+This script is used to predict final Gibbs free energy values for an unknown group of one or more .pdb file instances, using the results of the previous scripts and the model for energy prediction. The Gibbs free energy is given as a sum of all pseudo energy values for all predicted base pairs.
 
 ## Overview
+
 
 
 
