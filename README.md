@@ -9,7 +9,7 @@ The objective of this project is to propose an interpolative solution to the RNA
 4. Put the .pdb files for which you want to generate structural predictions to the `./unknown_instances` directory.
 5. Run the thirds script - predictor.py to calculate predictions for Gibbs free energy. The results can be found in the `./results` directory.
 
-Sample instances of all files can be found in all mentioned directories, and should be deleted before usage.
+Sample instances of all files can be found in all mentioned directories, and should be deleted before usage. The script does not automically delete old files in case input directories are changed - be shure to clean the folders of unused or unwanted results.
 
 # Pseudo Energy Calculation from Molecular Structures
 
