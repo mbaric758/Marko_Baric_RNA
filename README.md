@@ -1,6 +1,16 @@
 # RNA folding problem
 The objective of this project is to propose an interpolative solution to the RNA folding problem. The project itself is composed of three scripts. Below will be a more detailed description of each of the scripts and a short tutorial on how to use the code.
 
+## Quick-start guide
+
+1. Put your sample .pdb files in the `./dataset` directory
+2. Run the first script - main.py in order to generate pseudo energy and distance calculations. Results will be found in the `./output_files` directory.
+3. Run the second script - Inperaction_profiler.py in order to train the regression model and generate line plots of the results from the previous step. The resulting plots can be found in the `./figures` directory.
+4. Put the .pdb files for which you want to generate structural predictions to the `./unknown_instances` directory.
+5. Run the thirds script - predictor.py to calculate predictions for Gibbs free energy. The results can be found in the `./results` directory.
+
+Sample instances of all files can be found in all mentioned directories, and should be deleted before usage.
+
 # Pseudo Energy Calculation from Molecular Structures
 
 This script calculates pseudo energy values based on distances between specific atoms in molecular structures provided in PDB format. The calculated pseudo energy values are derived from observed probabilities and reference frequencies.
